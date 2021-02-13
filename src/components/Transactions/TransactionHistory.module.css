@@ -1,0 +1,23 @@
+.transactionHistory {
+  border-collapse: collapse;
+  color: #686461;
+  width: 600px;
+}
+th {
+  padding: 10px;
+  color: white;
+  background: #57bed8;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #d2d1d6;
+  text-align: center;
+}
+tbody:nth-child(odd) {
+  background: white;
+}
+tbody:nth-child(even) {
+  background: #d3eff3;
+}

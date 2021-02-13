@@ -1,0 +1,31 @@
+.statistics {
+  width: 300px;
+}
+.title {
+  text-align: center;
+  background-color: rgb(250, 250, 246);
+  padding: 15px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+.statistics ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  justify-content: space-around;
+  color: azure;
+  font-size: 18px;
+  margin: 0px;
+}
+.label {
+  color: azure;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  align-items: center;
+  padding: 10px;
+}
